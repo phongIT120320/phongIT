@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./themify-icons-font/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="./responsive.css">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0;
+            top: 0;
+            box-sizing: border-box;
+        }
+        #main{
+            background:#eee;
+            margin:30px 8px;
+            border-radius: 5px;
+            padding: 15px;
+
+        }
+        h1{
+            font-size:4rem;
+            text-align: center;
+            padding-top: 27px;
+        }
+        p{
+            text-align:center;
+            margin:16px 0;
+            font-size:1rem;
+            font-weight: 300;
+            opacity: 0.7;
+        }
+        #div-image{
+            background-color:#fff;
+            padding: 20px;
+            margin:0;
+        }
+        img{
+            display: block;
+            margin:0 auto;
+            max-width: 100%;
+           
+        }
+        #img-caption{
+            font-size:0.8rem;
+            opacity: 0.7;
+            margin: 15px 0 5px 0;
+            text-align: center;
+            font-weight:300;
+        }
+        h3{
+            opacity: 0.9;
+            text-align: center;
+            margin: 50px 0;
+        }
+        #tribute-info ul{
+            max-width: 500px;
+            margin: 0 auto 50px auto;
+            text-align: left;
+        }
+        #tribute-info li{
+            margin: 16px 0;
+            font-size:0.9rem;
+        }
+        .text{
+            max-width:500px;
+            margin: 0 auto 50px auto;
+            text-align: left;
+            padding-left:20px;
+            font-weight: 100;
+            font-size:0.9rem;
+            opacity: 0.7;
+            font-style: italic;
+        }
+        h4{
+            margin:16px 0;
+
+        }
+        h6{
+            text-align: center;
+            font-size:1rem;
+            text-decoration: none;
+            margin:16px 0;
+        }
+        #headding{
+            position:fixed;
+            height: 60px;
+            width: 100%;
+            display: flex;
+            background-color:rgb(0, 0, 0);
+            justify-content:space-between;
+        }
+        #headding .headding__label{
+            display: flex;
+       
+            
+
+
+        }
+        #headding .headding__icon{
+            font-size:20px;
+            color:#fff;
+            margin:auto;
+            padding:5px;
+
+         
+        }
+        #headding .headding__text{
+            color : #fff;
+            font-size:18px;
+            font-weight:500;
+        }
+        #headding .headding__all{
+            align-content: center;
+            margin:auto;
+            
+        }.btn a{
+            text-decoration:none;
+            color: #fff;
+            font-size:12px;
+            opacity: 0.8;
+            font-weight: 200;
+        }
+       .btn__riew:hover{
+            opacity: 1;
+        }
+        .btn__follow{
+            background-color: #47cf73;
+            font-size:10px; 
+            border: none;
+            border-radius: 3px;
+           
+        }
+        .btn__follow a{
+            color:#000;
+            font-size:10px;
+            font-style:bold; 
+        }
+        .btn__follow:hover {
+            background-color:#197a38;
+            color:#fff;
+        }
+        .header__btn{
+            display: flex;
+            justify-content: space-around;
+            
+
+        }
+        .header__smile{
+            background-color:#444857;
+            color: #fff;
+            padding:10px;
+            border-radius: 5px;
+            margin: auto;
+        }
+        .headding__view{
+            background-color:#444857;
+            color: #fff;
+            align-self: center;
+            text-decoration: none;
+            padding:10px;
+            border-radius: 5px;
+            margin:0 5px;
+
+        }
+        .headding__set:hover{
+           background-color:#5a5f73;
+        }
+        .headding__registration{
+            background-color:#47cf73;
+            color: #000;
+
+        }
+        .headding__registration:hover{
+            background-color:#197a38;
+            color:#fff;
+        }
+        
+        
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <div id="headding">
+        <div class="headding__label">
+           <div class="headding__icon"> 
+               <i class="ti-home "></i> 
+            </div>
+           <div class="headding__all">
+            <div class="headding__text"> FCC: Tribute Page </div>
+              <div class="btn">
+                  <a class="btn__riew" href="">freeCodeCamp.org</a>
+                  <button class="btn__follow"><a href="">Follow</a></button>
+                </div>    
+           </div>
+        </div>
+           <div class="header__btn">
+               <a class="header__smile headding__set">
+                   <i class="ti-face-smile "></i>
+               </a>
+               <a href="" class="headding__view header__view headding__set">View in Editor</a>
+               <a href="" class="headding__login headding__view headding__set">Log In</a>
+               <a href="" class="headding__registration headding__view">Sign Up</a>
+            </div>
+    
+    </div>
+    <main id="main">
+        <header id="header">
+            
+        </header>
+        <h1 id="title">Dr. Norman Borlaug</h1>
+        <p>The man who saved a billion lives</p>
+        <div id="div-image">
+            <img src="./tribute-page-main-image.jpg" alt="" id="img">
+            <h3 id="img-caption">Dr. Norman Borlaug, third from the left, trains biologists in Mexico on how to increase wheat yields - part of his life-long war on hunger.</h3>
+
+        </div>
+        <div id="tribute-info">
+            <h3 id="headline">Here's a time line of Dr. Borlaug's life:</h3>
+            <ul>
+                <li><strong>1914</strong> - Born in Cresco, Iowa</li>
+                <li><strong>1933</strong> - Leaves his family's farm to attend the University of Minnesota, thanks to a Depression era program known as the "National Youth Administration"</li>
+                <li><strong>1935</strong> - Has to stop school and save up more money. Works in the Civilian Conservation Corps, helping starving Americans. "I saw how food changed them", he said. "All of this left scars on me."</li>
+                <li><strong>1937</strong> - Finishes university and takes a job in the US Forestry Service</li>
+                <li><strong>1938</strong> - Marries wife of 69 years Margret Gibson. Gets laid off due to budget cuts. Inspired by Elvin Charles Stakman, he returns to school study under Stakman, who teaches him about breeding pest-resistent plants.</li>
+                <li><strong>1941</strong> - Tries to enroll in the military after the Pearl Harbor attack, but is rejected. Instead, the military asked his lab to work on waterproof glue, DDT to control malaria, disinfectants, and other applied science.</li>
+                <li><strong>1942</strong> - Receives a Ph.D. in Genetics and Plant Pathology</li>
+                <li><strong>1944</strong> - Rejects a 100% salary increase from Dupont, leaves behind his pregnant wife, and flies to Mexico to head a new plant pathology program. Over the next 16 years, his team breeds 6,000 different strains of disease resistent wheat - including different varieties for each major climate on Earth.</li>
+                <li><strong>1945</strong> - Discovers a way to grown wheat twice each season, doubling wheat yields</li>
+                <li><strong>1953</strong> - crosses a short, sturdy dwarf breed of wheat with a high-yeidling American breed, creating a strain that responds well to fertilizer. It goes on to provide 95% of Mexico's wheat.</li>
+                <li><strong>1962</strong> - Born in Cresco, Iowa</li>
+                <li><strong>1970</strong> - Born in Cresco, Iowa</li>
+                <li><strong>1983</strong> - Born in Cresco, Iowa</li>
+                <li><strong>1984</strong> - Born in Cresco, Iowa</li>
+                <li><strong>2005</strong> - Born in Cresco, Iowa</li>
+                <li><strong>2009</strong> - Born in Cresco, Iowa</li>
+            </ul>
+            <div class="text">
+                <h4>"Borlaug's life and achievement are testimony to the far-reaching contribution that one man's towering intellect, persistence and scientific vision can make to human peace and progress."</h4>
+                <h5>-- Indian Prime Minister Manmohan Singh</h5>
+            </div>
+            <h6>If you have time, you should read more about this incredible human being on his <a href="https://en.wikipedia.org/wiki/Norman_Borlaug"> Wikipedia entry.</a></h6>
+        </div>
+        
+    </main>
+    
+</body>
+</html>
